@@ -1,33 +1,34 @@
-/* global $ */
+/*global $ */
 
-function calcSub(){
+function calcSub() {
+    var argSubTotal;
     
-    var argSubtotal;
-    
-    if(document.getElementById('salesforce').checked)  {
-    argSubtotal = 100;
- }
-  else {
-      argSubtotal = 300;
-      
-  }
-  
-   display(argSubtotal);
+    if(document.getElementById('salesforce').checked) {
+        argSubTotal=100;
+    }
+    else if (document.getElementById('gmail').checked){
+        argSubTotal=200;
+    }
+    else if (document.getElementById('aws').checked){
+        argSubTotal=300;
+    }
+     else if (document.getElementById('cloudservices').checked){
+        argSubTotal=500;
+    }
+    display(argSubTotal);
 }
 
-function display(parm1){
-    
-    document.getElementById("subtotal").value = parm1;
-    document.getElementById("total").value = parm1;
+function display(parm1) {
+    document.getElementById('subtotal').value = parm1;
+    document.getElementById('total').value =parm1;
     
     enablebtnProceed();
-    
 }
 
 function enablebtnProceed(){
     $('#btnProceed').prop('disabled', false);
 }
 
-function disablebtnProceed() {
+function disablebtnProceed(){
     $('#btnProceed').prop('disabled', true);
 }

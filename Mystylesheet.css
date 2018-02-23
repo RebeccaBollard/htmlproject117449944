@@ -6,23 +6,25 @@
 html,body{
  width:100%;
  height:100%;
-    background: url("http://laptopnepal.com/wp-content/uploads/2015/02/1338750888-nice-background.jpg")no-repeat center fixed;
-    background-size:cover;
+ 
 }
 
 
 
 
  body{
-  background-color:  #ffb3d9;
+  background-color:white;
  }
  
 
 ul{
  width:100%;
  position:absolute;
- background:#ffb3d9;
- height:10%;
+ background:#99e6ff;
+ height:25%;
+ line-height:3.5;
+ opacity: .9;
+ 
 }
 
 ul li{
@@ -30,12 +32,14 @@ ul li{
  list-style:none;
  position:relative;
  top:30%;
+ 
 }
 
 ul li a{
  text-decoration: none;
  color:white;
- margin:20px;
+ margin:60px;
+ font-size:200%;
 }
 
 
@@ -52,3 +56,48 @@ img{
     right: 40%;
             
 }
+
+.container1{
+ position:absolute;
+ left:35%;
+ top:30%;
+ font-size:20px;
+}
+
+.btn{
+ position:absolute;
+ left:89%;
+ top:70%;
+ text-decoration:none;
+ border-radius:12px;
+ background-color:#99e6ff;
+ color:white;
+}
+
+.btn2{
+position:absolute;
+left:89%;
+top:70%;
+text-decoration:none;
+border-radius:12px;
+background-color:#99e6ff;
+color:white;
+}
+
+.container2{
+ position:absolute;
+ left:35%;
+ top:40%;
+ font-size:20px;
+}
+
+.btn3{
+position:absolute;
+left:89%;
+top:70%;
+text-decoration:none;
+border-radius:12px;
+background-color:#99e6ff;
+color:white;
+}
+
