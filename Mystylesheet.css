@@ -1,11 +1,16 @@
-
-.mainheading{
-    text-align: center;
+*{
+    margin:0;
+    padding:0;
 }
+
+
+
+
 
 html,body{
  width:100%;
  height:100%;
+ overflow: auto;
  
 }
 
@@ -26,9 +31,10 @@ ul{
  width:100%;
  position:absolute;
  background:#DCC7AA;
- height:25%;
+ height:15%;
  line-height:3.5;
  opacity: .9;
+ text-decoration: none;
  
 }
 
@@ -37,6 +43,7 @@ ul li{
  list-style:none;
  position:relative;
  top:30%;
+ text-decoration: none;
  
 }
 
@@ -45,60 +52,66 @@ ul li a{
  color:white;
  margin:60px;
  font-size:150%;
+ 
 }
 
 
 ul li a:hover{
  background:white;
- color:#ffb3d9;
- padding:2%;
+ color:#C0B283;
+ padding:0.5%;
+ text-decoration: none;
 }
 
 img{
     border-radius:700px;
-    position: absolute;
-    top: 10%;
-    right:140%;
-    height: 200px;
     width: 200px;
+    height: 200px;
+    
             
 }
 
 .container1{
  position:absolute;
- left:35%;
- top:30%;
- font-size:20px;
+ left:40%;
+ top:15%;
+ font-size:15px;
+ font-family: helvetica;
+ overflow: auto;
+ 
 }
 
 .btn{
  position:absolute;
  left:60%;
- top:70%;
+ top:60%;
  text-decoration:none;
- border-radius:12px;
+ border-radius:15px;
  background-color:#DCC7AA;
  color:white;
- font-size: 15px;
-
+ padding:2%;
+ border-radius:15px;
 }
+
+
 
 .btn2{
 position:absolute;
-left:89%;
+left:60%;
 top:70%;
 text-decoration:none;
-border-radius:12px;
+border-radius:15px;
 background-color:#DCC7AA;
 color:white;
-font-size: 15px;
+font-size: 20px;
+padding: 15px 32px;
 }
 
 .container2{
  position:absolute;
  left:10%;
- top:40%;
- font-size:20px;
+ top:20%;
+ 
 }
 
 .btn3{
@@ -114,15 +127,15 @@ color:white;
 .containersec{
  position:absolute;
  left:35%;
- top:40%;
+ top:30%;
  
 }
 
 .footer {
   width:100%;
-  height:40px;
+  height:50px;
   color:#6B7A8F;
-  position:fixed;
+  position:absolute;
   bottom: 30px;
   text-align: left;
 }    
@@ -135,5 +148,28 @@ img{
 	text-align: center;
 	z-index:1;
 	
+}
+
+
+.container3{
+ position:absolute;
+ left:40%;
+ top:26%;
+
+ 
+}
+
+h1{
+ font-size:20px;
+}
+
+.workexp{
+ left:10%;
+ top:15%;
+ font-size:15px;
+ font-family: helvetica;
+ overflow: auto;
+ position: absolute;
+ 
 }
 
