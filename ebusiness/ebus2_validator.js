@@ -1,64 +1,72 @@
 /* global $ */
 
-function validateDetails(){
+function validateName(){
     
-    validateNameDetails();
-    
-}
-
-function validateNameDetails(){
     var name;
     
-    name= document.getElementById("user_name").value;
-    
-    if (name ==""){
-        alert("Please enter your name");
-    }
-    
-    else if (String(name).length < 4){
-        alert("Please make sure your full name is entered.");
-    }
-    
-    else{
-        validateEmailDetails();
-    }
-} 
+    name = document.getElementById("username").value;
 
-function validateEmailDetails(){
+    if (name == ""){
+        alert("Please enter a name.");
+    }
+    else if (!name.match(/^[a-zA-Z]+$/)){
+        alert('Only letters are allowed in a name.');
+    }
+    else{
+        validateEmail();
+    }
+
+}
+
+function validateEmail(){
+    
     var email;
     
-   email= document.getElementById("user_email").value;
+    email = document.getElementById("useremail").value;
     
-    if (email ==""){
-        alert("Please enter your email");
+    if (email == ""){
+        alert("please enter an email.")
     }
-    
-    else if (String(email).length <10){
-        alert("Please make sure your email is correct.");
+    else if (validateInputEmail(email) == false){
+        alert("Please enter a valid Email ID");
     }
-    
     else{
-        validatePinDetails();
+        validatePin();
     }
-} 
+}
 
-function validatePinDetails(){
-    var pin;
+function validatePin(){
     
-    pin= document.getElementById("user_pin").value;
+var pin;
     
-    if (pin ==""){
-        alert("Please enter your PIN");
+    pin = document.getElementById("userpin").value;
+    
+    if (pin == ""){
+        alert("Please enter your PIN.");
     }
-    
-    else if (String(pin).length < 4){
-        alert("Please make sure your PIN is accurate");
+    else if (pin.length < 4){
+        alert("Your PIN must be 4 digits.");
     }
-    
     else{
-        enablebtnPurchase();
+        enablebtnPurchase()
     }
-} 
+}
+
+function validateInputEmail(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+    }
+    
+function enablebtnPurchase(){
+    
+    $('#btnPurchase').prop('disabled', false);
+    }
+    
+function disablebtnPurchase() {
+    
+    $('#btnPurchase').prop('disabled', true);
+    }
+    
 
 function enablebtnPurchase(){
     $('#btnPurchase').prop('disabled', false);
