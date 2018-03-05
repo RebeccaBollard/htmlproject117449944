@@ -13,9 +13,7 @@ session_start()
         
         <link rel="stylesheet" href="ebus.css" type="text/css"/>
         
- 
-     
-          <div class="topnav">
+        <link rel="icon" type="image/png" href="https://cdn1.iconfinder.com/data/icons/hawcons/32/699966-icon-1-cloud-256.png">
         
     </head>
     

@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Select Product</title>
         
-    <title>Stratus</title>
-    <link rel = "stylesheet" href = "ebus.css" type = "text/css" />
-    
-     <div class="topnav">
-       </head>
-     
-              
-           
-     <body>
-    
+        <!--jQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="cost_calc.js"></script>
+
+        <link rel="stylesheet" href="ebus.css" type="text/css"/>
+        
+        
+        <link rel="icon" type="image/png" href="https://cdn1.iconfinder.com/data/icons/hawcons/32/699966-icon-1-cloud-256.png">
+        
+    </head>
+        <div class="topnav">
+    <body>
          
          <div>
              
@@ -24,20 +27,8 @@
         </ul>
         
         </div>
-        </div>
         
-        
-        <div class="logo">
-        <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/728/610839728_5eb918ff-34fb-4409-bbcf-28dbb3de65f3.png?cb=1520197164);">
-        </div>
-    
-    
-    <body>
-        <
-                
-               
-        
-        <div class="container1">
+        <div class="container2">
           <h1>Select a Product</h1>
               
           <br>
@@ -119,6 +110,3 @@
         </div>
     </body>
 </html>
-
-
-   
