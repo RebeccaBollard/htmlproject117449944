@@ -11,8 +11,12 @@
 }
 
 #section3{
-    background-color: rgb(51, 153, 204)
+      background: url(https://images.unsplash.com/photo-1487217874268-e63b3cf3e44b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=20756419785ee8400da5dc35de493052&auto=format&fit=crop&w=1555&q=80) no-repeat center fixed;
+    color:white;
 }
+
+
+
 
 .section{
     text-align: center;
