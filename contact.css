@@ -51,7 +51,7 @@ ul li{
 ul li a{
  text-decoration: none;
  color:white;
- margin:60px;
+ margin:80px;
  font-size:150%;
  
 }
@@ -59,24 +59,38 @@ ul li a{
 
 ul li a:hover{
  background:white;
- color:#C0B283;
+ color:#DAAD86;
  padding:0.5%;
  text-decoration: none;
 }
 
-.stratus{
+.logo{
 position:absolute;
  left:36%;
- top:15%;
- font-size:15px;
- font-family: helvetica;
- overflow: auto;
-}
-
-.welcome{
- position:absolute;
- left:40%;
  top:40%;
-
+ overflow: auto;
+ height:200px;
+ width:200px;
 }
 
+.mainsect{
+ top:100%;
+ left:36%;
+ position:absolute;
+}
+
+
+.contactinfo{
+ top:150%;
+ left:36%;
+ position:absolute;
+ 
+ 
+ .footer1 {
+  width:100%;
+  height:50px;
+  color:#6B7A8F;
+  bottom: 30px;
+  text-align: left;
+  
+}   
