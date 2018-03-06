@@ -28,7 +28,11 @@
         
         </div>
         
-        <div class="container2">
+        <div class="logo">
+        <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/728/610839728_5eb918ff-34fb-4409-bbcf-28dbb3de65f3.png?cb=1520197164);">
+        </div>
+        
+        <div class="container1">
           <h1>Select a Product</h1>
               
           <br>
@@ -62,7 +66,7 @@
               Gmail @ $400
             </label>
             
-            
+            <br>
             
             <label for="subtotal" class="lblsubtotal">
               Subtotal: 
@@ -100,11 +104,11 @@
             </div>  
               
           </form>
-             
+            </br> 
           <button class="btncal" onClick="calcSub()">Calculate Cost</button>
              
           <br>
-            
+          </br> 
           
           <a class="btnclear" role="button" href="Ebus1.php">Clear Choice</a>
         </div>

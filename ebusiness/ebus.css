@@ -63,3 +63,168 @@ ul li a:hover{
  padding:0.5%;
  text-decoration: none;
 }
+
+.container1{
+ top:35%; 
+ left:38%;
+ position:absolute;
+    
+}
+
+.logo{
+position:absolute;
+ left:39%;
+ top:20%;
+ overflow: auto;
+ height:200px;
+ width:200px;
+}
+
+.container1 .h1{
+ position: absolute;
+ top:10%;
+ left:42%;
+}
+
+.addbtnstyle {
+ background-color: green;
+ border: none;
+ color: white;
+ text-align: center;
+ text-decoration: none;
+ padding: 5px 5px;
+ border-radius: 3px;
+ font-size:90%;
+}
+
+.addbtnstyle:hover {
+ cursor:pointer;
+ 
+}
+
+.btncal {
+background-color:blue;
+ border: none;
+ color: #000;
+ text-align: center;
+ text-decoration: none;
+ padding: 6px 6px;
+ border-radius: 3px;
+ font-size:95%;
+ 
+
+
+}
+
+.btncal:hover{
+    cursor:pointer;
+}
+
+.btnclear:hover{
+    cursor: pointer;
+}
+
+.btnclear {
+ background-color: red;
+    text-decoration: none;
+    color: white;
+    padding: 4px 4px;
+    border: solid 1px red;
+    border-radius: 3px;
+
+}
+
+
+.heading2{
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+
+.lblname{
+    position: absolute;
+    top: 25%;
+    left: 38%;
+}
+
+.lblemail{
+    position: absolute;
+    top: 28%;
+    left: 38%;
+}
+
+.lblpin{
+    position: absolute;
+    top: 32%;
+    left: 38%;
+}
+
+.btnproceed{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 3px;
+    font-size: 90%;
+}
+
+.btnproceed:hover{
+    cursor: pointer;
+}
+
+.btnvalidate{
+    position: absolute;
+    top: 45%;
+    left: 43%;
+    
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 3px;
+    font-size: 90%;
+}
+
+.btnvalidate{
+    cursor: pointer;
+}
+
+
+.ebus3_heading {
+    position: absolute;
+    top: 33%;
+    left: 40%;
+    font-size: 30px;
+    font-family: helvetica;
+}
+.ebus3name{
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    font-size: 20px;
+    font-family: helvetica;
+}
+
+.ebus3email{
+    position: absolute;
+    top: 46%;
+    left: 40%;
+    font-size: 20px;
+    font-family: helvetica;
+}
+
+.ebus3total{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 20px;
+    font-family: helvetica;
+}

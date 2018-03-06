@@ -9,8 +9,32 @@ session_start()
         
         <link rel="stylesheet" href="ebus.css" type="text/css"/>
         
+         </head>
+     
+          <div class="topnav">
+             
+           
+     <body>
+    
+         
+         <div>
+             
+         <ul>
+           <li> <a  href = "homepage.html">Home    </a> </li>
+    
+          <li> <a href = "ebusiness/Ebus1.php">Shop</a> </li>
+           <li> <a href = "cloudcontact.html">Contact     </a> </li>
+           <li> <a href = "CloudServices/About_Cloud.html"> Cloud Services</a></li>
+        </ul>
         
-        <link rel="icon" type="image/png" href="https://cdn1.iconfinder.com/data/icons/hawcons/32/699966-icon-1-cloud-256.png">
+        </div>
+        
+        
+        
+        <div class="logo">
+        <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/728/610839728_5eb918ff-34fb-4409-bbcf-28dbb3de65f3.png?cb=1520197164);">
+        </div>
+    
         
     </head>
     
