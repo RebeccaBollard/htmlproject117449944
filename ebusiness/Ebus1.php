@@ -22,7 +22,7 @@
          <ul>
            <li> <a  href = "../homepage.html">Home    </a> </li>
     
-          <li> <a href = "ebusiness/Ebus1.php">Shop</a> </li>
+          <li> <a href = "../ebusiness/Ebus1.php">Shop</a> </li>
            <li> <a href = "../CloudServices/cloudcontact.html">Contact     </a> </li>
            <li> <a href = "../CloudServices/About_Cloud.html"> Cloud Services</a></li>
         </ul>
