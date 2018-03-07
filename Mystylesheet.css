@@ -64,12 +64,12 @@ ul li a:hover{
 }
 
 
-img{
-    border-radius:700px;
-    position: absolute;
-    top: 40%;
-    left: 35%;
-}
+ img {
+  border-radius: 700px;
+  position:absolute;
+  top:40%;
+  left:20%;
+  }
            
 .container1{
  position:absolute;
@@ -77,9 +77,11 @@ img{
  top:30%;
  font-size:15px;
  font-family: helvetica;
- overflow: auto;
+ 
  
 }
+
+
 
 .btn{
  position:absolute;
@@ -126,7 +128,7 @@ img{
 .containersec{
  position:absolute;
  left:35%;
- top:30%;
+ top:10%;
  
 }
 
@@ -179,3 +181,6 @@ img{
     left:62%;
     height:80px;
 }
+
+
+
