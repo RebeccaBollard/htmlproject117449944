@@ -137,32 +137,32 @@ background-color:blue;
 
 .heading2{
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 38%;
 }
 
 .lblname{
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 38%;
 }
 
 .lblemail{
     position: absolute;
-    top: 32%;
+    top: 39%;
     left: 38%;
 }
 
 .lblpin{
     position: absolute;
-    top: 34%;
+    top: 45%;
     left: 38%;
 }
 
 .btnproceed{
     position: absolute;
-    top: 45%;
-    left: 43%;
+    top: 58%;
+    left: 40%;
     
     background-color: #4CAF50;
     border: none;
@@ -180,9 +180,8 @@ background-color:blue;
 
 .btnvalidate{
     position: absolute;
-    top: 45%;
+    top: 64%;
     left: 43%;
-    
     background-color: #008CBA;
     border: none;
     color: white;

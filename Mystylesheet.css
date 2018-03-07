@@ -70,6 +70,10 @@ ul li a:hover{
   top:40%;
   left:20%;
   }
+  
+  
+  
+  
            
 .container1{
  position:absolute;
@@ -90,7 +94,7 @@ ul li a:hover{
     text-decoration:none;
     color:white;
     background:#DCC7AA;
-    padding:1%;
+    padding:5%;
     border-radius:20px;
 }
 

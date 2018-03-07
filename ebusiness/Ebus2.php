@@ -27,7 +27,7 @@ session_start()
          <div>
              
          <ul>
-           <li> <a  href = "homepage.html">Home    </a> </li>
+           <li> <a  href = "../homepage.html">Home    </a> </li>
     
           <li> <a href = "ebusiness/Ebus1.php">Shop</a> </li>
            <li> <a href = "cloudcontact.html">Contact     </a> </li>
