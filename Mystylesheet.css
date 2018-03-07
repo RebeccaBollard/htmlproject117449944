@@ -114,6 +114,12 @@ ul li a:hover{
  
 }
 
+.container2.mainheading{
+ text-align:center;
+ 
+}
+
+
 .btn3{
  position:absolute;
     left:89%;
@@ -152,7 +158,9 @@ ul li a:hover{
  
 }
 
-
+.container3.h3{
+ font-size: 150%;
+}
 
 .workexp{
     position:absolute;
