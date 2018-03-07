@@ -75,13 +75,13 @@ position:absolute;
 
 .mainsect{
  top:40%;
- left:36%;
+ left:15%;
  position:absolute;
 }
 
 
 .contactinfo{
- top:70%;
+ top:50%;
  left:36%;
  position:absolute;
 }
@@ -93,5 +93,5 @@ position:absolute;
   color:black;
   position:absolute;
   bottom: 30px;
-  text-align: left;
+  text-align: center;
 }    

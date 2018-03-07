@@ -143,25 +143,25 @@ background-color:blue;
 
 .lblname{
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 38%;
 }
 
 .lblemail{
     position: absolute;
-    top: 28%;
+    top: 32%;
     left: 38%;
 }
 
 .lblpin{
     position: absolute;
-    top: 32%;
+    top: 34%;
     left: 38%;
 }
 
 .btnproceed{
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 43%;
     
     background-color: #4CAF50;
@@ -195,6 +195,8 @@ background-color:blue;
 
 .btnvalidate{
     cursor: pointer;
+    top:50%;
+    position:absolute;
 }
 
 
