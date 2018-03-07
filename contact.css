@@ -66,11 +66,11 @@ ul li a:hover{
 
 .logo{
 position:absolute;
- left:36%;
+ left:38%;
  top:30%;
  overflow: auto;
- height:200px;
- width:200px;
+ height:240px;
+ width:240px;
 }
 
 .mainsect{
@@ -82,8 +82,9 @@ position:absolute;
 
 .contactinfo{
  top:56%;
- left:40%;
+ left:37%;
  position:absolute;
+ text-align:center;
 }
  
  
@@ -93,5 +94,5 @@ position:absolute;
   color:black;
   position:absolute;
   bottom: 30px;
-  text-align: center;
+  left:34%;
 }    
