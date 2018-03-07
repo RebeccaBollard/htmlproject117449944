@@ -78,7 +78,7 @@ ul li a:hover{
 .container1{
  position:absolute;
  left:40%;
- top:30%;
+ top:25%;
  font-size:15px;
  font-family: helvetica;
  
@@ -115,6 +115,7 @@ ul li a:hover{
  position:absolute;
  left:10%;
  top:20%;
+ font-family:helvetica;
  
 }
 
@@ -158,6 +159,7 @@ ul li a:hover{
  position:absolute;
  left:40%;
  top:26%;
+ font-family:helvetica;
 
  
 }
@@ -173,6 +175,7 @@ ul li a:hover{
     font-size:15px;
     color:black;
     text-decoration:none;
+    font-family:helvetica;
 }
  
 .workexp h1{
