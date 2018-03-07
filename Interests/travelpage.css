@@ -36,11 +36,11 @@ button{
      background-color: white;
     border: double;
     color: #536DFE;
-    padding: 4px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 10px;
-    margin: 4px 2px;
+    padding:1%;
+    border-radius:12px;
     cursor: pointer;
 }
