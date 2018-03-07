@@ -10,11 +10,12 @@
         <link rel="stylesheet" href="ebus.css" type="text/css"/>
         
         
-        <link rel="icon" type="image/png" href="https://cdn1.iconfinder.com/data/icons/hawcons/32/699966-icon-1-cloud-256.png">
+        <link rel="icon" type="image/png" href="https://cdn1.iconfinder.com/data/icons/hawcons/32/699966-icon-1-cloud-256.png" alt="cloudlogo">
         
     </head>
+     <body>
         <div class="topnav">
-    <body>
+        </div>
          
          <div>
              
@@ -29,7 +30,7 @@
         </div>
         
         <div class="logo">
-        <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/728/610839728_5eb918ff-34fb-4409-bbcf-28dbb3de65f3.png?cb=1520197164);">
+        <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/728/610839728_5eb918ff-34fb-4409-bbcf-28dbb3de65f3.png?cb=1520197164" alt="cloudlogo">
         </div>
         
         <div class="container1">
@@ -104,11 +105,11 @@
             </div>  
               
           </form>
-            </br> 
+            <br> 
           <button class="btncal" onClick="calcSub()">Calculate Cost</button>
              
           <br>
-          </br> 
+          <br> 
           
           <a class="btnclear" role="button" href="Ebus1.php">Clear Choice</a>
         </div>

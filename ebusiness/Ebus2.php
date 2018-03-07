@@ -37,7 +37,7 @@ session_start()
         </div>
          
           <div class="logo">
-        <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/728/610839728_5eb918ff-34fb-4409-bbcf-28dbb3de65f3.png?cb=1520197164);">
+        <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/728/610839728_5eb918ff-34fb-4409-bbcf-28dbb3de65f3.png?cb=1520197164" alt="cloudlogo">
         </div>
    
         
@@ -47,7 +47,7 @@ session_start()
             
             <label for="username" class="lblname">
                 Name
-                <input type="name" id="username" name="username" placeholder="Enter Your Name">
+                <input type="text" id="username" name="username" placeholder="Enter Your Name">
             </label>
             
             <br>

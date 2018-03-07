@@ -11,10 +11,11 @@ session_start()
         
          </head>
      
+              
+         <body>
           <div class="topnav">
-             
-           
-     <body>
+            </div>
+    
     
          
          <div>
@@ -36,9 +37,9 @@ session_start()
         </div>
     
         
-    </head>
     
-    <body>
+    
+    
         <h4 class="ebus3_heading">Purchase Receipt</h4>
         
         <?php  
